@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Design Example</title>
+  <style>
+    /* Default styles for all screen sizes */
+    p {
+      font-size: 16px;
+      background-color: lightblue;
+      padding: 20px;
+      text-align: center;
+    }
+
+    /* Styles for screens wider than 600px */
+    @media only screen and (min-width: 600px) {
+      p {
+        font-size: 20px;
+        background-color: lightgreen;
+      }
+    }
+
+    /* Styles for screens wider than 900px */
+    @media only screen and (min-width: 900px) {
+      p {
+        font-size: 24px;
+        background-color: lightcoral;
+      }
+    }
+  </style>
+</head>
+<body>
+  <p>This is a responsive paragraph. Resize the browser window to see the changes in font size and background color.</p>
+</body>
+</html>
